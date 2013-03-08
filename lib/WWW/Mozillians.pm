@@ -17,4 +17,17 @@ method _build_ua {
     return $ua;
 }
 
+method users {
+}
+
 __PACKAGE__->meta->make_immutable;
+
+__END__
+
+=pod
+
+=head2 API Keys
+
+Request API keys here: https://mozillians.org/user/edit#services
+
+=cut
